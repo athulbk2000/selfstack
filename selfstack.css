@@ -1,0 +1,241 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.whatsapp{
+    width: 100px;
+    height: 100px;
+    float: right;
+    position:sticky;
+    position: relative;
+    bottom: 200px;
+}
+.top{
+    width:100%;
+    height: 50PX;
+    background-color: aqua;
+    position: fixed;
+    z-index: 2;
+    
+}
+.top ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    right: 60px;
+    list-style: none;
+
+}
+.top1{
+    width: 100%;
+    width: 100%;
+    
+    
+}
+.join{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    background-color:transparent
+    
+}
+.join1{
+    
+    border-style: solid;
+    color: red;
+    font-size: 15px;
+    border-color: blue;
+    background-color: #fff;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+
+    
+}
+.second{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.second1{
+    width: 200px;
+    height: 200px;
+}
+.second2{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 70px;
+}
+.thired{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    gap: 2em;
+    position: relative;
+}
+.thired1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+
+.thired2{
+    width: 500px;
+    height: 550px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px 0px black;
+
+    
+}
+
+.four{
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px 0px black;
+
+}
+.four1{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+   
+
+    
+}
+.head{
+    width: 400px;
+    padding: 50px;
+    position: relative;
+    bottom: 60px;
+    line-height: 25px;
+}
+.ten{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    gap: 2em;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    background-image: url(selfstack.jpg);
+
+}
+.footer h1{
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 40s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 800px 0;
+    }
+}
+.five{
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 40px 0px black;
+
+}
+.youtube{
+    position: relative;
+    left: 100px;
+}
+.six{
+     width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px 0px black;
+}
+.seven{
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px 0px black;
+
+}
+.seven1{
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.head{
+    width: 400px;
+    padding: 50px;
+    position: relative;
+    bottom: 60px;
+    line-height: 25px;
+}
+.tabel{
+    position: relative;
+    left: 40%;
+    bottom: 200px;
+    color: #fff;
+}
+/* }
+.form{
+    width: 400px;
+    height: 350px;
+    border: 5px solid black;
+    position: relative;
+    left: 65%;
+    bottom: 500px;
+    background-color: #fff;
+} */
